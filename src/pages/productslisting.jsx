@@ -1,5 +1,6 @@
 import { Row, Col, Card } from "antd";
 import React from "react";
+import ProductsCard from "../components/product_card/ProductsCard";
 
 const Productslisting = () => {
   return (
@@ -17,27 +18,25 @@ const Productslisting = () => {
       </div>
       <div className="cardList">
         <Row gutter={16}>
-          <Col span={8}>
+          <Col span={6}>
+            <ProductsCard />
+          </Col>
+          <Col span={6}>
             <Card>
               Card content
             </Card>
           </Col>
-          <Col span={8}>
+          <Col span={6}>
             <Card>
               Card content
             </Card>
           </Col>
-          <Col span={8}>
+          <Col span={6}>
             <Card>
               Card content
             </Card>
           </Col>
-          <Col span={8}>
-            <Card>
-              Card content
-            </Card>
-          </Col>
-          <Col span={8}>
+          <Col span={6}>
             <Card>
               Card content
             </Card>
