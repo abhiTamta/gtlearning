@@ -1,25 +1,44 @@
-import { Button, Card } from 'antd'
-import React from 'react'
+import { FieldTimeOutlined } from "@ant-design/icons";
+import { Avatar, Button, Card } from "antd";
+import React from "react";
 
-const ProductsCard = () => {
+const ProductsCard = ({ data }) => {
   return (
-    <Card actions={[
-      <Button className='w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 '>Enrol now</Button>,
-      <Button className='w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 '>Enrol now</Button>
-    ]} cover={<img alt="example" src="https://api.learningt.com/wp-content/uploads/2023/01/BIPT.png" />}>
-      <h3 className='text-xl font-semibold'>Business Intelligence using Power BI and Tableau</h3>
+    <Card
+      className="border"
+      actions={[
+        <Button className="w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 uppercase">
+          Enrol now
+        </Button>,
+        <Button className="w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 uppercase">
+          Enquire
+        </Button>,
+      ]}
+      cover={<img alt="example" src={data.img} />}
+    >
+      <h3 className="text-lg leading-6 mb-4 font-bold">{data.title}</h3>
       <div className="flex justify-between">
-        <div className="duration">
-          <div className=""></div>
-          <div className="">
+        <div className="duration flex items-center gap-3">
+          <div className="iconBlock">
+            <Avatar shape="square" size={40} icon={<FieldTimeOutlined />} />
+          </div>
+          <div className="textBlock">
             <div className="title">Duration</div>
-            <div className="">30 hours</div>
+            <div className="">{data.duration}</div>
           </div>
         </div>
-        <div className=""></div>
+        <div className="duration flex items-center gap-3">
+          <div className="iconBlock">
+            <Avatar shape="square" size={40} icon={<FieldTimeOutlined />} />
+          </div>
+          <div className="textBlock">
+            <div className="title">Duration</div>
+            <div className="">{data.duration}</div>
+          </div>
+        </div>
       </div>
     </Card>
-  )
-}
+  );
+};
 
-export default ProductsCard
+export default ProductsCard;

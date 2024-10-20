@@ -1,0 +1,50 @@
+[
+    {
+        "id" : "1",
+        "title" : "Certificate in Investment Banking (Online Live)",
+        "discription" : "Investment banking is a specialised area of banking that offers financial advisory services and aids in raising capital for people or businesses.",
+        "duration" : "80 hours",
+        "price" : "42,000",
+        "img" : "https://api.learningt.com/wp-content/uploads/2023/12/iv.png"
+    },
+    {
+        "id" : "2",
+        "title" : "Certificate in Data Visualisation using Microsoft Power BI",
+        "discription" : "Data visualisation is a process that converts raw data into attractive and easy to understand visuals fostering clear communication and smarter decisions.",
+        "duration" : "20 hours",
+        "price" : "18,000",
+        "img" : "https://api.learningt.com/wp-content/uploads/2023/11/DVMP.png"
+    },
+    {
+        "id" : "3",
+        "title" : "Certificate in Financial Modelling and Valuation (Online Live)",
+        "discription" : "Financial modelling and valuation course is an abstract representation of a real-world financial situation to gauge the performance of a financial asset or portfolio of a business project or any other investment.",
+        "duration" : "80 hours",
+        "price" : "30,000",
+        "img" : "https://api.learningt.com/wp-content/uploads/2023/07/FMV-OL.png"
+    },
+    {
+        "id" : "4",
+        "title" : "Certificate in Investment Banking (Online Live)",
+        "discription" : "Investment banking is a specialised area of banking that offers financial advisory services and aids in raising capital for people or businesses.",
+        "duration" : "80 hours",
+        "price" : "42,000",
+        "img" : "https://api.learningt.com/wp-content/uploads/2023/12/iv.png"
+    },
+    {
+        "id" : "5",
+        "title" : "Certificate in Data Visualisation using Microsoft Power BI",
+        "discription" : "Data visualisation is a process that converts raw data into attractive and easy to understand visuals fostering clear communication and smarter decisions.",
+        "duration" : "20 hours",
+        "price" : "18,000",
+        "img" : "https://api.learningt.com/wp-content/uploads/2023/11/DVMP.png"
+    },
+    {
+        "id" : "6",
+        "title" : "Certificate in Financial Modelling and Valuation (Online Live)",
+        "discription" : "Financial modelling and valuation course is an abstract representation of a real-world financial situation to gauge the performance of a financial asset or portfolio of a business project or any other investment.",
+        "duration" : "80 hours",
+        "price" : "30,000",
+        "img" : "https://api.learningt.com/wp-content/uploads/2023/07/FMV-OL.png"
+    }
+]
