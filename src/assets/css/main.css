@@ -18,3 +18,7 @@ body {
   padding: 0;
   position: relative;
 }
+
+.ant-card .ant-card-actions>li{
+  margin: 0;
+}

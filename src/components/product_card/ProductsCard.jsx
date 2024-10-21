@@ -1,4 +1,4 @@
-import { FieldTimeOutlined } from "@ant-design/icons";
+import { FieldTimeOutlined, FileOutlined } from "@ant-design/icons";
 import { Avatar, Button, Card } from "antd";
 import React from "react";
 
@@ -20,23 +20,25 @@ const ProductsCard = ({ data }) => {
       <div className="flex justify-between">
         <div className="duration flex items-center gap-3">
           <div className="iconBlock">
-            <Avatar shape="square" size={40} icon={<FieldTimeOutlined />} />
+            <Avatar className="bg-red-300" shape="square" size={34} icon={<FieldTimeOutlined />} />
           </div>
           <div className="textBlock">
             <div className="title">Duration</div>
-            <div className="">{data.duration}</div>
+            <div className="time">{data.duration}</div>
           </div>
         </div>
         <div className="duration flex items-center gap-3">
           <div className="iconBlock">
-            <Avatar shape="square" size={40} icon={<FieldTimeOutlined />} />
+            <Avatar className="bg-red-300" shape="square" size={34} icon={<FileOutlined />} />
           </div>
           <div className="textBlock">
-            <div className="title">Duration</div>
-            <div className="">{data.duration}</div>
+            <div className="title">Certification</div>
+            <div className="text">of completion</div>
           </div>
         </div>
       </div>
+
+      <div className="mt-5 pt-3 border-t text-xl font-bold flex items-center gap-5">INR {data.price} <span className="font-normal text-sm">(Exclusive of 18% GST)</span></div>
     </Card>
   );
 };
