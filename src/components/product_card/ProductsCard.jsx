@@ -1,13 +1,16 @@
 import { FieldTimeOutlined, FileOutlined } from "@ant-design/icons";
 import { Avatar, Button, Card } from "antd";
 import React from "react";
+import { addtocart } from "../../store/cartSlice";
+import { useDispatch } from "react-redux";
 
 const ProductsCard = ({ data }) => {
+  const dispatch = useDispatch()
   return (
     <Card
       className="border"
       actions={[
-        <Button className="w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 uppercase">
+        <Button className="w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 uppercase" onClick={() => { dispatch(addtocart(data))}}>
           Enrol now
         </Button>,
         <Button className="w-full h-auto py-3 border-none bg-purple-950 rounded-none text-white hover:bg-red-800 uppercase">
