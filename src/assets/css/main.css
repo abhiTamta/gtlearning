@@ -20,7 +20,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.ant-card .ant-card-actions>li{
+.ant-card .ant-card-actions > li {
   margin: 0;
 }
 
@@ -46,5 +46,36 @@ body {
 }
 
 .loginBtn:hover {
-  background: red !important;
+  background: #8000dc !important;
+  color: #fff !important;
 }
+
+.comboList {
+  position: relative;
+}
+
+.comboList .ant-card {
+  padding: 0;
+  border-color: #999999;
+  overflow: hidden;
+}
+
+.comboList .ant-card .ant-card-body {
+  padding: 0;
+}
+
+.comboList .ant-card .ant-card-body .cardTitle {
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+  background: #502c7d;
+  color: #ffffff;
+}
+
+.comboList .ant-card .ant-card-body .priceBox {
+  padding: 5px;
+  background: #733abd;
+}
+
+.comboList .ant-card .ant-card-body .priceBox {}
