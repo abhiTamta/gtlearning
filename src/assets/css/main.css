@@ -89,4 +89,25 @@ body {
   padding: 0;
   height: auto;
   border: none;
+  border-radius: 0;
+  width: 100px;
+  line-height: 2.5;
+  color: #fff;
+}
+
+.comboList .ant-card .ant-card-body .conentBox .learnmorebtn {
+  background: #502c7d;
+  margin-bottom: 10px;
+}
+
+.comboList .ant-card .ant-card-body .conentBox .learnmorebtn:hover {
+  background: #733abd;
+}
+
+.comboList .ant-card .ant-card-body .conentBox .buynowbtn {
+  background: #733abd;
+}
+
+.comboList .ant-card .ant-card-body .conentBox .buynowbtn:hover {
+  background: #502c7d;
 }
