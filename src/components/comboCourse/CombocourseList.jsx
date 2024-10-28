@@ -132,6 +132,10 @@ const CombocourseList = () => {
             </Col>
           </Row>
         </div>
+
+        <div className="flex justify-center mt-10">
+          <Button className="readmorebtn">Read more...</Button>
+        </div>
       </div>
   )
 }
