@@ -1,6 +1,5 @@
-import { Avatar, Badge, Button, Space } from "antd";
+import { Button, Space } from "antd";
 import gt_logo from "../../assets/images/gt_learning_logo.png";
-import { BsCart3 } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -9,16 +8,14 @@ const Header = () => {
         <div className="gt_logo_section w-52">
           <img src={gt_logo} alt="" />
         </div>
-        {/* <div className="cartIcon">
-          <Button className="p-0 border-none">
-            <Badge count={1}>
-              <Avatar className="bg-transparent border-none" shape="square" icon={<BsCart3 color="black" size={30} />} size="large" />
-            </Badge>
-          </Button>
-        </div> */}
 
-        <Space>
-          but
+        <div className="menuBar">
+          <Button className="menuBtn">Home</Button>
+          <Button className="menuBtn">About</Button>
+          <Button className="menuBtn">Programe</Button>
+        </div>
+        <Space size={"large"}>
+          <Button className="loginBtn">Login / Sign up</Button>
         </Space>
       </div>
     </header>

@@ -30,3 +30,21 @@ body {
   background-size: cover;
   background-position: right center;
 }
+
+.menuBar .menuBtn {
+  border: none;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.loginBtn {
+  height: auto;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  background: #4f2e7f;
+}
+
+.loginBtn:hover {
+  background: red !important;
+}

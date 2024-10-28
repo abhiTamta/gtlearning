@@ -3,7 +3,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <section className='bannerSection w-full relative min-h-96 bg-red-50 flex items-center'>
+        <section className='bannerSection w-full relative min-h-[500px] bg-red-50 flex items-center'>
             <div className="container mx-auto">
                 <div className="w-5/12">
                     <h1 className='text-white text-[42px] font-bold mb-4'>Choose your E-learning combo</h1>
