@@ -121,3 +121,11 @@ body {
   color: #733abd;
   font-weight: bold;
 }
+
+.certificateList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  font-size: 18px;
+}
